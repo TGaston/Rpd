@@ -1,0 +1,13 @@
+Package: Rpd
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+ 
+Author:  Ghassen Tounsi <tounsi.ghassen@gmail.com>
+Maintainer:  Ghassen Tounsi <tounsi.ghassen@gmail.com>
+
+Description: R portfolio analysis.
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
