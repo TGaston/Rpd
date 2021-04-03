@@ -1,15 +1,14 @@
 Package: Rpd
-Title: What the Package Does (One Line, Title Case)
+Title: R building packages coursera
 Version: 0.0.0.9000
  
 Author:  Ghassen Tounsi <tounsi.ghassen@gmail.com>
 Maintainer:  Ghassen Tounsi <tounsi.ghassen@gmail.com>
 
-Description: R portfolio analysis.
+Description: R week 4 assignment coursera
 License: GPL (>= 2)
 Encoding: UTF-8
-LazyData: true
-Roxygen: list(markdown = TRUE)
+LazyData: FALSE
 RoxygenNote: 7.1.1
 Suggests: 
     dplyr,
@@ -19,3 +18,4 @@ Suggests:
     knitr,
     rmarkdown,
     testthat
+VignetteBuilder: knitr
