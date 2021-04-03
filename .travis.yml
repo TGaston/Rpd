@@ -4,7 +4,9 @@ r:
   - release
   - devel
 install:
-  - Rscript -e 'install.packages("devtools", repos = "http://cran.rstudio.com")'
-  - Rscript -e 'install.packages( "dplyr", repo = "https://cloud.r-project.org")'
-  - Rscript -e 'install.packages( "readr", repo = "https://cloud.r-project.org")'
-  - Rscript -e 'install.packages( "tidyr", repo = "https://cloud.r-project.org")'
+- R -e 'devtools::install_deps(dep = T)'
+
+script:
+- Rscript -e 'install.packages("devtools", repos = "http://cran.rstudio.com")'
+- Rscript -e 'install.packages( "readr", repo = "https://cloud.r-project.org")'
+- Rscript -e 'install.packages( "tidyverse", repo = "http://cran.rstudio.com")'
