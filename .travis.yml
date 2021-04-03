@@ -1,4 +1,1 @@
 language: R
-install:
-- R -e 'devtools::install_deps(dependencies = TRUE, upgrade="always")'
-
