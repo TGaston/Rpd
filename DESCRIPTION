@@ -1,10 +1,8 @@
 Package: Rpd
 Title: R building packages coursera
 Version: 0.0.0.9000
- 
 Author:  Ghassen Tounsi <tounsi.ghassen@gmail.com>
 Maintainer:  Ghassen Tounsi <tounsi.ghassen@gmail.com>
-
 Description: R week 4 assignment coursera
 License: GPL (>= 2)
 Encoding: UTF-8
