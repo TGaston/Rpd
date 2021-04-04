@@ -95,8 +95,10 @@ fars_summarize_years <- function(years) {
 #'
 #' @return Plots a map of the state, where the fatalities are the dots on the map.
 #' @examples
-#' fars_map_state(56, 2013)
-#'
+#' \dontrun{
+#' setwd('data')
+#' fars_map_state(12, 2013)
+#'}
 #' @export
 
 fars_map_state <- function(state.num, year) {
