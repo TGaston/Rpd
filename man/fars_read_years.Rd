@@ -16,6 +16,7 @@ A list of FARS data for the years in the parameter \code{years}.
 Reads data for multiple years
 }
 \examples{
+\dontrun{
 fars_read_years(c(2014, 2015, 2016))
-
+}
 }

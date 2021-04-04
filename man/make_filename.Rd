@@ -18,5 +18,7 @@ This function uses the year (input) to generate the file name for the Fatality
    then uses the \code{sprintf()} function to format the file name.
 }
 \examples{
+\dontrun{
 make_filename(2014) #generates "accident_2014.csv.bz2"
+}
 }

@@ -29,7 +29,9 @@ fars_read <- function(filename) {
 #'
 #' @param year An integer or string indicating the year that generate the data file.
 #' @examples
+#' \dontrun{
 #' make_filename(2014) #generates "accident_2014.csv.bz2"
+#' }
 #' @export
 
 make_filename <- function(year) {
@@ -43,8 +45,9 @@ make_filename <- function(year) {
 #'
 #' @return A list of FARS data for the years in the parameter \code{years}.
 #' @examples
+#' \dontrun{
 #' fars_read_years(c(2014, 2015, 2016))
-#'
+#'}
 #' @export
 
 fars_read_years <- function(years) {
@@ -72,8 +75,9 @@ fars_read_years <- function(years) {
 #'
 #' @return A dataframe with monthly number of accidents in each row and years as colunms.
 #' @examples
+#' \dontrun{
 #' fars_summarize_years(c(2014, 2015))
-#'
+#'}
 #' @export
 
 fars_summarize_years <- function(years) {

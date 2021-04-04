@@ -21,6 +21,7 @@ This function produces a "tidy" data frame of FARS data for multiple years. Data
    uses \code{\link{fars_read_years}} function to generate a list of month and year.
 }
 \examples{
+\dontrun{
 fars_summarize_years(c(2014, 2015))
-
+}
 }
