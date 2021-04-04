@@ -19,7 +19,7 @@ Read data from csv file
 }
 \examples{
 \dontrun{
-fars_read("accident_2014.csv.bz2") # file in current working directory
+fars_read(file.path("data", "accident_2013.csv.bz2")) # file in current working directory
 fars_read("data123.csv") # Error: file 'data123.csv' does not exist.
 }
 

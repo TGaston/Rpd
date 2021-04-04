@@ -22,6 +22,8 @@ This function takes the state number and a year as inputs and calls the supporti
    functions \code{make_filename()} and \code{fars_read()}.
 }
 \examples{
-fars_map_state(56, 2013)
-
+\dontrun{
+setwd('data')
+fars_map_state(12, 2013)
+}
 }
